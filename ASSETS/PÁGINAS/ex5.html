@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PESO</title>
+<script src="../JS/ex5.js"></script>
+<style>
+  body{
+    background-color: rgb(189, 247, 103);
+  }
+  main{
+    background-color: rgb(221, 240, 184);
+    margin: 10px;
+    text-align: center;
+  }
+  ul{
+    list-style-type: none;
+  }
+  
+</style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Programa Cálculo do Peso Ideal</h1>
+        <p>Nome:
+          <input type="text" id="inNome">
+        </p>
+        <p>Sexo:
+          <input type="radio" name="sexo" id="rbMasculino"> Masculino
+          <input type="radio" name="sexo" id="rbFeminino"> Feminino</p>
+        <p>Altura:
+          <input type="text" id="inAltura">
+        </p>
+        <p>
+          <input type="button" value="Calcular Peso Ideal" id="btCalcular" onclick="calcularPeso()">
+          <input type="button" value="Limpar Campos" id="btLimpar" onclick="limparCampos()">
+        </p>
+        <h3 id="outResposta"></h3>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="E:\1 Albert Einstein\PW\ATIVIDADE FINAL\principal.html">INÍCIO</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
